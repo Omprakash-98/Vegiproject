@@ -1,0 +1,58 @@
+
+<div className='cart_data shadow m-3 p-3 rounded data_main'>
+        {
+          cart.length ?
+            <div>
+              {
+                cart.map((item) => {
+                  console.log("Crt",item.title);
+
+                  return (
+
+                    <div className="border p-3 shadow roundedm cardmain rounded" key={item.id}>
+                      <img src={item.img} className="card-img-top shadow" alt="..." />
+                      <div className="card-body">
+                        <h5 className="card-title">{item.title}</h5>
+                        <p className="card-text">{item.price}</p>
+                      </div>
+                      {/* <div className="card-body">
+                        <a href="#" onClick={() => props.addToCartHandler(item)} className="  btn btn-success shadow">Add to cart</a>
+                      </div> */}
+                    </div>
+                  )
+                })
+              }
+            </div> :
+            <div>
+              <h1>Cart Empaty</h1>
+            </div>
+        }
+      </div>
+
+      <div className='Cart_total shadow m-3 p-3'>
+        <div>
+          <h1 className='shadow-sm rounded p-2 ' style={{color:'red'}}>Price Details</h1>
+        </div>   <hr />
+        <table>
+          <thead className='thead'>
+            <tr>
+              <th >Price: </th>
+              <td >50,000</td>
+            </tr>
+            <tr>
+              <th>Qty: </th>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th>Delivery Charges: </th>
+              <td>0</td>
+            </tr>
+            <hr />
+            <tr>
+              <th>Total Amount </th>
+              <td>0</td>
+            </tr>
+          </thead>
+        </table>
+
+      </div>

@@ -1,0 +1,112 @@
+
+.cardmain{
+    background-color: antiquewhite;
+    width: 70%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 5px 1px;
+}
+.cardmain img{
+    width: 30%;
+    height: 3   0vh;
+}
+.btn-sm {
+text-decoration: none;
+}
+
+/* CART CSS */
+.cart_main{
+    display: flex;
+    justify-content: space-between;
+    height: 100;
+}
+.cart_data{
+    width: 100%;
+display: flex;
+justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.Cart_total{
+    /* border: 2px solid red; */
+width: 35%;
+box-shadow: 0px 1px 5px 1px;
+padding: 25px;
+
+}
+.thead tr td{
+/* background-color: red; */
+padding-left: 100%;
+}
+.data_main{
+    margin-top: 15%;
+
+}
+
+
+/* boostap CSs */
+.col{
+    margin-top: 13%;
+}
+.card-body{
+    padding: 20px;
+}
+
+.flex{
+    display: flex;
+padding-right: 20px;
+margin: 10px;
+
+}
+.card1{
+    /* border: 1px solid red; */
+    box-shadow: 1px 1px 3px 1px;
+    border-radius:initial;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin-left: 10px;  
+}
+.title div input {
+    background-color: rgb(255, 247, 247);
+    width: 30%;
+    border-radius: 2    0%;
+    margin: 0px 10px 0px 10px;
+}
+.formdetails{
+    padding: 20px;
+}
+.formradius{
+    border-radius: 3%;
+    box-shadow: 0px 1px 3px 0px black;
+}
+.shadow{
+ 
+    
+    padding: 13px;
+   
+    background-color: rgb(255, 255, 255);
+
+}
+.maincard{
+    box-shadow: 1px 1px 3px 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1%;
+padding: 10px;
+}
+.carthead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-arrow-left{
+color: red;
+margin-right: 10px;
+}
